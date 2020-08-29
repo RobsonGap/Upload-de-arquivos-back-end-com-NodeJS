@@ -1,0 +1,8 @@
+{
+  "name": "Upload-de-arquivos-back-end-com-NodeJS",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/RobsonGap/Upload-de-arquivos-back-end-com-NodeJS.git",
+  "author": "RobsonGap <robsonmie@hotmail.com>",
+  "license": "MIT"
+}
