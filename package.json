@@ -4,5 +4,11 @@
   "main": "index.js",
   "repository": "https://github.com/RobsonGap/Upload-de-arquivos-back-end-com-NodeJS.git",
   "author": "RobsonGap <robsonmie@hotmail.com>",
-  "license": "MIT"
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.17.1",
+    "mongoose": "^5.10.2",
+    "morgan": "^1.10.0",
+    "multer": "^1.4.2"
+  }
 }
