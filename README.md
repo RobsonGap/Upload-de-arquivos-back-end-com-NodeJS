@@ -7,7 +7,7 @@
 **1 -** Prepare the evironment:
  
  ```sh
- $ npm install 
+ $ yarn install 
 ```
 
 **2 -** Clone the project and install the dependecies:
@@ -15,7 +15,7 @@
 ```sh
 $ git clone git@github.com:RobsonGap/ Upload-de-arquivos-back-end-com-NodeJS
 $ cd Upload-de-arquivos-back-end-com-NodeJS
-$ npm install
+$ yarn install
 ```
 **3 --** Run static server and livereload:
 
