@@ -1,4 +1,8 @@
-const mongoose = require('mongoose');
+const mongoose = require("mongoose");
+const aws = require("aws-sdk");
+const fs = require("fs");
+const path = require("path");
+
 
 const PostSchema = new mongoose.Schema({
   name: String,
@@ -9,6 +13,12 @@ const PostSchema = new mongoose.Schema({
     type: Date,
     default: Date.now,
   },
+});
+
+PostSchema.pre('save', function() {
+  if (!this.url) {
+    this.url = `${process.env.APP_URL}/files/${this.key}`; 
+  }
 });
 
 module.exports = mongoose.model('Post', PostSchema);
