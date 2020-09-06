@@ -1,4 +1,4 @@
-# Upload-de-arquivos-back-end-com-NodeJS
+# Upload-de-arquivos-back-no-end-com-NodeJS
 >Desenvolver a base da nossa aplicação, incluindo toda a lógica do funcionamento de upload de arquivos no back-end com NodeJS, Express e Amazon S3, no intuito de treinar e aprender conceitos novos e evoluir.
  <3
 

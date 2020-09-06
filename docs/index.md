@@ -1,37 +1,73 @@
 ## Welcome to GitHub Pages
 
-You can use the [editor on GitHub](https://github.com/RobsonGap/Upload-de-arquivos-back-end-com-NodeJS/edit/master/docs/index.md) to maintain and preview the content for your website in Markdown files.
+# Upload-de-arquivos-no-back-end-com-NodeJS
+>Desenvolver a base de uma aplicação, incluindo toda a lógica do funcionamento de upload de arquivos no back-end com NodeJS, Express e Amazon S3, no intuito de treinar e aprender conceitos novos e evoluir.
+ <3
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+## Run the project locally
 
-### Markdown
-
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
-
-```markdown
-Syntax highlighted code block
-
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
+**1 -** Prepare the evironment:
+ 
+ ```sh
+ $ yarn install 
+```
+### Ambiente de desenvolvimento
+```
+$ yarn dev 
+```
+### Ambiente de produção
+```
+$ yarn start
 ```
 
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
+**2 -** Clone the project and install the dependecies:
 
-### Jekyll Themes
+```sh
+$ git clone git@github.com:RobsonGap/ Upload-de-arquivos-back-end-com-NodeJS
+$ cd Upload-de-arquivos-back-end-com-NodeJS
+$ npm install
+```
+**3 --** Run static server and livereload:
 
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/RobsonGap/Upload-de-arquivos-back-end-com-NodeJS/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
+```sh
+$ node index.js
+```
 
-### Support or Contact
+## Stack
 
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+- Simulando um Servidor local com o : [Live Server](http://tapiov.net/live-server/)
+
+- Express recursos para API : [Express](https://expressjs.com/pt-br/)
+- File System ou FS : [FS](https://nodejs.org/api/fs.html#fs_file_system)
+
+- Mongoose modelagem elegante de objetos mongodb para node.js:[Mongoose](https://mongoosejs.com/)
+
+- MongoDB O MongoDB é um banco de dados orientado a documentos (document database) no formato JSON, [MongoDB](https://docs.mongodb.com/manual/tutorial/)
+
+- Node.JS Como um ambiente de execução JavaScript assíncrono orientado a eventos, o Node.js é projetado para desenvolvimento de aplicações escaláveis de rede. No exemplo a seguir, diversas conexões podem ser controladas ao mesmo tempo. Em cada conexão a função de callback é chamada. Mas, se não houver trabalho a ser realizado, o Node.js ficará inativo.  [Node.JS](https://nodejs.org/pt-br/about/)
+
+- AWS-SDk Comece a usar rapidamente a AWS com o AWS SDK para JavaScript em Node.js. O SDK ajuda a eliminar a complexidade de codificação ao fornecer APIs do JavaScript para serviços da AWS, incluindo Amazon S3, Amazon EC2, DynamoDB e Amazon SWF. O único pacote disponível por download inclui a biblioteca do JavaScript da AWS e documentação. [AWS-SDK](https://aws.amazon.com/pt/sdk-for-node-js/)
+
+- CryptoJS is a growing collection of standard and secure cryptographic algorithms implemented in JavaScript using best practices and patterns. They are fast, and they have a consistent and simple interface. [CryptoJS](https://cryptojs.gitbook.io/docs/)
+
+- Morgan, que é uma forma de logar ou mostrar quais requisições estão chegando em nosso servidor HTTP, seja ele feito no Express ou em Node puro utilizando o módulo HTTP.[Morgan](https://www.npmjs.com/package/morgan)
+
+
+
+> Upload-de-arquivos-back-end-com-NodeJS <3
+
+## Versioning
+
+To keep better organization of releases we follow the [Semantic Versioning 2.0.0](http://semver.org/) guidelines.
+
+## Contributing
+Find on our [roadmap](https://github.com/RobsonGap/Upload-de-arquivos-back-end-com-NodeJS/issues/1) the next steps of the project ;)
+<br>
+Want to contribute? [Follow these recommendations](https://github.com/RobsonGap/Upload-de-arquivos-back-end-com-NodeJS/CONTRIBUTING.md).
+
+
+
+## License
+[MIT License](https://github.com/RobsonGap/Upload-de-arquivos-back-end-com-NodeJS/LICENSE.md) © [Robson Alves](https://github.com/RobsonGap/)
+
+
