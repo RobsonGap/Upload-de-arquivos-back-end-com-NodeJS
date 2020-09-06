@@ -10,7 +10,7 @@ const app = express();
 /**
  * Database setup
  */
-mongoose.connect("mongodb://localhost:27017/uploads", {useCreateIndex: true, useUnifiedTopology: true,useNewUrlParser: true,useFindAndModify:false});
+mongoose.connect(process.env.MONGO_URL, {useCreateIndex: true, useUnifiedTopology: true,useNewUrlParser: true,useFindAndModify:false});
 
 app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
